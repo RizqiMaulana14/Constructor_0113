@@ -24,3 +24,13 @@ mahasiswa::mahasiswa(int iNim){
 mahasiswa::mahasiswa(string iNama){
     nama = iNama; //Definisi Hanya Nama
 }
+
+mahasiswa::mahasiswa(int iNim, string iNama){
+    nim = iNim; //Definisi NIM dan Nama
+    nama = iNama;
+}
+
+void mahasiswa::cetak(){
+    cout << endl << "NIM = " << nim << endl;
+    cout << "Nama = " << nama << endl;
+}
