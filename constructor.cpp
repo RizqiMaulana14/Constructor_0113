@@ -6,7 +6,9 @@ class mahasiswa{
         mahasiswa(); //constructor
 };
 
-
+mahasiswa::mahasiswa(){
+    cout << "Constructor Terpanggil " << endl; //definisi Constructor
+};
 
 int main(){
 
