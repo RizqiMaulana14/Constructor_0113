@@ -21,7 +21,9 @@ void barang::cetak(){
 }
 
 int main(){
-    barang brg("Laptop", 101);
-    brg.cetak();
+    barang brg1("Laptop", 101);
+    barang brg2("Komputer", 111);
+    brg1.cetak();
+    brg2.cetak();
     return 0;
 }
